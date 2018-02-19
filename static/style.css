@@ -1,0 +1,23 @@
+.home h1 {
+    text-align: center;
+}
+
+.home ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.home a {
+    color: black;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+}

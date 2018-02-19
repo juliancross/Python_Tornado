@@ -1,0 +1,100 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2018-01-17 09:42:43",
+    "containerVersion": {
+        "path": "accounts/99945/containers/166031/versions/0",
+        "accountId": "99945",
+        "containerId": "166031",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/99945/containers/166031",
+            "accountId": "99945",
+            "containerId": "166031",
+            "name": "Plateforme Dior.com",
+            "domainName": [
+                "//www.dior.com",
+                "//www.pcdpreprod.dior.com",
+                "//www.next.recette.dior.com",
+                "//backstage.dior.com",
+                "//www.backstage.dior.com",
+                "//www.dior.cn",
+                "//m.dior.com",
+                "//m.dior.cn",
+                "//preprod.dior.com",
+                "//preprods.dior.com",
+                "//m.pcdpreprod.dior.com"
+            ],
+            "publicId": "GTM-S2K4K",
+            "notes": "https://support.google.com/tagmanager/answer/2772442?hl=en\nhttps://support.google.com/tagmanager/answer/2695660\nhttps://support.google.com/tagassistant/answer/2947038?hl=en#http_https\n\nhttps://developers.google.com/analytics/devguides/collection/gajs/methods/gaJSApiCampaignTracking#_gat.GA_Tracker_._setAllowAnchor\n\nhttp://www.fourthsource.com/web-development/google-tag-manager-series-4-tips-tricks-setting-google-analytics-implementation-google-tag-manager-16156",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1516118838075",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/99945/containers/166031/workspaces?apiLink=container"
+        },
+        "tag": [{
+            "accountId": "99945",
+            "containerId": "166031",
+            "tagId": "198",
+            "name": "AdWords - RLSA Remarketing - FRA - CDC °DM",
+            "type": "sp",
+            "parameter": [{
+                    "type": "LIST",
+                    "key": "customParams",
+                    "list": [{
+                            "type": "MAP",
+                            "map": [{
+                                    "type": "TEMPLATE",
+                                    "key": "key",
+                                    "value": "google_remarketing_only"
+                                },
+                                {
+                                    "type": "TEMPLATE",
+                                    "key": "value",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "MAP",
+                            "map": [{
+                                    "type": "TEMPLATE",
+                                    "key": "key",
+                                    "value": "google_custom_params"
+                                },
+                                {
+                                    "type": "TEMPLATE",
+                                    "key": "value",
+                                    "value": "window.google_tag_params"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "TEMPLATE",
+                    "key": "conversionId",
+                    "value": "1035167153"
+                },
+                {
+                    "type": "TEMPLATE",
+                    "key": "customParamsFormat",
+                    "value": "USER_SPECIFIED"
+                }
+            ],
+            "fingerprint": "1488799331374",
+            "firingTriggerId": [
+                "591"
+            ],
+            "blockingTriggerId": [
+                "3",
+                "6",
+                "177"
+            ],
+            "parentFolderId": "648",
+            "tagFiringOption": "ONCE_PER_EVENT"
+        }],
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/99945/containers/166031/versions/0?apiLink=version"
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+
+<body class='home'>
+    <h1>Framework {{dynamic}}</h1>
+    <header>
+        <ul>
+            <li><a href="/page1">Link 1</a></li>
+            <li><a href="/page2">Link 2</a></li>
+            <li><a href="/page3">Link 3</a></li>
+            <li><a href="/page4">Link pour le templating</a></li>
+            {% module Hello() %}
+        </ul>
+    </header>
+</body>
+
+</html>
